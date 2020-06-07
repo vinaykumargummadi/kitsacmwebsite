@@ -1,3 +1,16 @@
+/*
+Color Palatte:
+text:#fff
+Gradient : #40bad5,#120136
+Menu-bg :#035aa6
+Buttons: transparent
+Buttons::hover:- bg-color : #fcbf1e
+button-text-size : 2em
+normal font-size : 1- 2 em
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+*/
+
+
 *{
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -9,8 +22,9 @@
     background: yellow;
     padding-top: 5%;
     /* margin-top: 25%; */
-    background-image:linear-gradient(to bottom right,#33ccff,#000);
-    background-size: cover;
+    background-image:linear-gradient(to bottom right,#40bad5,#120136);
+    /* background-image:linear-gradient(to top left,#000,#80d0c7); */
+    /* background-image: linear-gradient(to right top, #8f36c2, #b92ca2, #cd3785, #d44d6f, #d16562, #cf6160, #cd5e5f, #cb5a5d, #c7386a, #b71481, #920d9e, #3e29bc);    background-size: cover; */
     background-repeat: no-repeat;
 }
 #header>#codingimg{
@@ -56,8 +70,10 @@
     color:#fff;
 }
 #Navbar ul li:hover a{
-    transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
-    color: #e87e04;
+    /* transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715); */
+    transition: all 0.5s cubic-bezier(.15,.9,.87,.12);
+    color: #fcbf1e;
+    /* border-bottom: 2px solid #fcbf1e; */
 }
 #header>.mydiv>h1{
     color: #fff;
@@ -82,14 +98,14 @@
 }
 #header>#caption >.joinbtn:hover{
     /* background-image:linear-gradient(95deg,#33ccff,#000); */
-    background-color: #e87e04;
+    background-color: #fcbf1e;
 
 }
 
 /*----------------------footer----------------------------*/
 footer
 {
-    background-image:linear-gradient(to bottom right,#33ccff,#000);
+    background-image:linear-gradient(to bottom right,#40bad5,#120136);
     padding-bottom: 1%;
 }
 footer h3
@@ -131,14 +147,14 @@ footer ul li a
 footer ul li a:hover
 {
     text-decoration: none;
-    color: #e87e04;
+    color: #fcbf1e;
     
 }
 #social{
     padding: 70px 0px;
 }
 #social i{
-    color: #33ccff;
+    color: #40bad5;
     background-color: #fff;
     border-radius:60px;
     padding:0.6em 0.6em;
@@ -149,7 +165,7 @@ footer ul li a:hover
 #social i:hover
 {
     color: #fff;
-    background-color: #e87e04;
+    background-color: #fcbf1e;
 }
 #rights
 {
