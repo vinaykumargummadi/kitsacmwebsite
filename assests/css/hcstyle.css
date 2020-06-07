@@ -1,0 +1,57 @@
+
+.active span{
+    color:#fff;
+}
+
+.container-hc
+{
+    background-image:linear-gradient(to bottom right,#33ccff,#000);
+    margin-top: 70px;
+    color: #fff;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+}
+.container-hc .row{
+    text-align: center;
+    font-size: 2em;
+    line-height: 150%;
+    padding: 50px;
+}
+.hc-btn{
+    border-radius: 70px;
+    background-color: #000;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.btn-mask
+{
+    display: inline;
+    box-sizing: border-box;
+    background-image:linear-gradient(250deg,#33ccff,#000);
+    position: relative;
+    border-radius: 70px;
+    padding:10px 5px;
+    /* transition: all 5s; */
+    animation: myani 5s cubic-bezier(0.47, 0, 0.745, 0.715) top ;
+}
+@keyframes myani{
+    0%{background-image:linear-gradient(200deg,#33ccff,#000);}
+    50%{background-image:linear-gradient(150deg,#33ccff,#000);}
+    100%{background-image:linear-gradient(100deg,#33ccff,#000);}
+}
+.hc-btn span
+{
+    background: -webkit-linear-gradient(50deg,#33ccff,#fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-mask:hover{
+    transition: all 3s;
+    background-image:linear-gradient(50deg,#33ccff,#000);
+}
+.hc-btn:hover span{
+    background: -webkit-linear-gradient(250deg,#33ccff,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
