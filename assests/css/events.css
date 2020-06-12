@@ -1,0 +1,56 @@
+
+.jumbotron
+{
+    background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+    margin-top: 95px;
+    color: #fff;
+    width: 100%;
+    line-height: 2em; 
+    height: 150px;
+}
+.jumbotron h3{
+    text-align: center;
+    float: left;
+}
+.card-bg{
+    margin-left: 27%;
+    margin-bottom: 10%;
+    width: 2000px;
+    border: 1px solid black;
+    box-shadow: 4px 3px 12px 1px #6c7a89;
+}
+@media(max-width:550px){
+    .card-bg{
+        margin-left: 5%;
+    }
+}
+.card .card-header{
+    color: #fff;
+    background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.event-img img{
+    /* margin-top: 10px; */
+    width: 80%;
+    height: 100%;
+    
+}
+.event-data p{
+    margin: 1% 1%;
+    text-align: center;
+    font-size: 1em;
+}
+@media(max-width:500px){
+    .event-img img{
+        
+        width: 110%;
+        height: 100%;
+        float: left;
+    }
+    .event-data p{
+        font-size: 0.7em;
+    }
+}
